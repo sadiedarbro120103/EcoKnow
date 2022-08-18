@@ -36,6 +36,7 @@
       "size" : "60x60"
     },
     {
+      "filename" : "KWK EcoKnow Icon.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -72,6 +73,11 @@
     },
     {
       "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "76x76"
+    },
+    {
+      "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
@@ -81,6 +87,7 @@
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "KWK EcoKnow.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
