@@ -28,6 +28,7 @@ class WaterCalculatorViewController: UIViewController {
     @IBAction func calc1(_ sender: Any) {
         var num1 = Double(text1.text ?? "")
         num1!*=105
+        print(num1)
         total += num1 ?? 0.0
     }
     
