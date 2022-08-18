@@ -23,14 +23,6 @@ class WaterCalculatorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        total  /= 2205.0
-        print("DONE1")
-        print(total)
-        actual = total + food
-        print(food)
-        print("TIme for actual...")
-        print(actual)
-        
     }
     
     @IBAction func calc1(_ sender: Any) {
@@ -71,71 +63,99 @@ class WaterCalculatorViewController: UIViewController {
     }
     
     @IBAction func calc7(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food += 3
     }
 
     @IBAction func calc71(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food += 7
     }
     
     @IBAction func calc72(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=11
     }
     
     @IBAction func calc81(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
+        
         food+=1
     }
     
     @IBAction func calc82(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=2
     }
     @IBAction func calc83(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=3
     }
     
     @IBAction func calc91(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=1
+        
     }
     
     @IBAction func calc92(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=2
     }
     
     @IBAction func calc93(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=4
     }
     
     @IBAction func calc101(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=1
     }
     
     @IBAction func calc102(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=2
     }
     
     @IBAction func calc103(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=3
     }
     
     @IBAction func calc111(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=2
     }
     
     @IBAction func calc112(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=4
     }
     
     @IBAction func calc113(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         food+=6
     }
     
     @IBAction func no1(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         total+=184
     }
     
     @IBAction func no2(_ sender: UIButton) {
+        sender.backgroundColor = sender.backgroundColor == UIColor.green ? UIColor.green : UIColor.green
         total += 166
     }
     
+    @IBAction func complete(_ sender: UIButton) {
+        total  /= 2205.0
+        print("DONE1")
+        print(total)
+        actual = total + food
+        print(food)
+        print("TIme for actual...")
+        print(actual)
+    }
     
 }
