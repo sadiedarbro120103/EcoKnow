@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6436A09628AEAB8C00E02C5E /* oceanbiodiversity-2911804007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6436A09528AEAB8B00E02C5E /* oceanbiodiversity-2911804007.jpg */; };
 		CF7B288228AC173700A69B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B288128AC173700A69B88 /* AppDelegate.swift */; };
 		CF7B288428AC173700A69B88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B288328AC173700A69B88 /* SceneDelegate.swift */; };
 		CF7B288628AC173700A69B88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B288528AC173700A69B88 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6436A09528AEAB8B00E02C5E /* oceanbiodiversity-2911804007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "oceanbiodiversity-2911804007.jpg"; path = "../../../Downloads/oceanbiodiversity-2911804007.jpg"; sourceTree = "<group>"; };
 		CF7B287E28AC173700A69B88 /* EcoKnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoKnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7B288128AC173700A69B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7B288328AC173700A69B88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				CF7B289A28AC1FF700A69B88 /* UrbanRural.swift */,
 				CF7B289C28AC200D00A69B88 /* Resources.swift */,
 				CF7B288D28AC173900A69B88 /* Assets.xcassets */,
+				6436A09528AEAB8B00E02C5E /* oceanbiodiversity-2911804007.jpg */,
 				CF7B288F28AC173900A69B88 /* LaunchScreen.storyboard */,
 				CF7B289228AC173900A69B88 /* Info.plist */,
 				CF7B288A28AC173700A69B88 /* EcoKnow.xcdatamodeld */,
@@ -139,6 +142,7 @@
 			files = (
 				CF7B289128AC173900A69B88 /* LaunchScreen.storyboard in Resources */,
 				CF7B288E28AC173900A69B88 /* Assets.xcassets in Resources */,
+				6436A09628AEAB8C00E02C5E /* oceanbiodiversity-2911804007.jpg in Resources */,
 				CF7B288928AC173700A69B88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
