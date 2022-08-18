@@ -28,7 +28,7 @@ class WaterCalculatorViewController: UIViewController {
     @IBAction func calc1(_ sender: Any) {
         var num1 = Double(text1.text ?? "")
         num1!*=105
-        print(num1)
+        //print(num1)
         total += num1 ?? 0.0
     }
     
@@ -149,14 +149,13 @@ class WaterCalculatorViewController: UIViewController {
         total += 166
     }
     
+    
+    @IBOutlet weak var carbonFootprint: UILabel!
+    
     @IBAction func complete(_ sender: UIButton) {
         total  /= 2205.0
-        print("DONE1")
-        print(total)
         actual = total + food
-        print(food)
-        print("TIme for actual...")
-        print(actual)
+        carbonFootprint.text = String(actual)
     }
     
 }
