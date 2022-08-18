@@ -17,47 +17,50 @@ class WaterCalculatorViewController: UIViewController {
     @IBOutlet weak var text5: UITextField!
     @IBOutlet weak var text6: UITextField!
     
-    
-    
     var total = 0.0
+    var food = 0.0
+    var actual = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        total  /= 2205.0
+        print("DONE1")
+        print(total)
+        actual = total + food
+        print(food)
+        print("TIme for actual...")
+        print(actual)
+        
     }
     
     @IBAction func calc1(_ sender: Any) {
         var num1 = Double(text1.text ?? "")
         num1!*=105
         total += num1 ?? 0.0
-        print(total)
     }
     
     @IBAction func calc2(_ sender: Any) {
         var num2 = Double(text2.text ?? "")
         num2!*=105
         total += num2 ?? 0.0
-        print(total)
     }
     
     @IBAction func calc3(_ sender: Any) {
         var num3 = Double(text3.text ?? "")
         num3!*=113
         total += num3 ?? 0.0
-        print(total)
     }
     
     @IBAction func calc4(_ sender: Any) {
         var num4 = Double(text4.text ?? "")
         num4!*=0.79
         total += num4 ?? 0
-        print(total)
     }
     
     @IBAction func calc5(_ sender: Any) {
         var num5 = Double(text5.text ?? "")
         num5!*=1100
         total += num5 ?? 0
-        print(total)
     }
     
     @IBAction func calc6(_ sender: Any) {
@@ -65,40 +68,74 @@ class WaterCalculatorViewController: UIViewController {
         num6!*=4400
         total += num6 ?? 0
         print(total)
-        total /= 2000
     }
     
     @IBAction func calc7(_ sender: UIButton) {
-        total += 3
+        food += 3
     }
 
     @IBAction func calc71(_ sender: UIButton) {
-        total += 7
+        food += 7
     }
     
     @IBAction func calc72(_ sender: UIButton) {
-        total+=11
+        food+=11
     }
     
     @IBAction func calc81(_ sender: UIButton) {
-        total+=1
+        food+=1
     }
     
     @IBAction func calc82(_ sender: UIButton) {
-        total+=2
+        food+=2
     }
     @IBAction func calc83(_ sender: UIButton) {
-        total+=3
+        food+=3
     }
     
     @IBAction func calc91(_ sender: UIButton) {
+        food+=1
     }
     
+    @IBAction func calc92(_ sender: UIButton) {
+        food+=2
+    }
     
+    @IBAction func calc93(_ sender: UIButton) {
+        food+=4
+    }
     
+    @IBAction func calc101(_ sender: UIButton) {
+        food+=1
+    }
     
+    @IBAction func calc102(_ sender: UIButton) {
+        food+=2
+    }
     
+    @IBAction func calc103(_ sender: UIButton) {
+        food+=3
+    }
     
+    @IBAction func calc111(_ sender: UIButton) {
+        food+=2
+    }
+    
+    @IBAction func calc112(_ sender: UIButton) {
+        food+=4
+    }
+    
+    @IBAction func calc113(_ sender: UIButton) {
+        food+=6
+    }
+    
+    @IBAction func no1(_ sender: UIButton) {
+        total+=184
+    }
+    
+    @IBAction func no2(_ sender: UIButton) {
+        total += 166
+    }
     
     
 }

@@ -60,6 +60,9 @@
                                     <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                     <color key="baseBackgroundColor" red="0.12941176469999999" green="0.50980392159999999" blue="0.36078431370000003" alpha="0.8980392157" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="MdS-Xh-v6B" kind="show" id="yaC-Hh-mcH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -387,6 +390,9 @@
                                                             <color key="baseForegroundColor" red="0.25882352939999997" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="baseBackgroundColor" red="0.96862745100000003" green="0.99215686270000003" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="calc92:" destination="MdS-Xh-v6B" eventType="touchUpInside" id="RB8-Qi-2ah"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4KW-PE-lPB">
                                                         <rect key="frame" x="310" y="1490" width="95" height="73"/>
@@ -397,6 +403,9 @@
                                                             <color key="baseForegroundColor" red="0.25882352939999997" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="baseBackgroundColor" red="0.96862745100000003" green="0.99215686270000003" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="calc93:" destination="MdS-Xh-v6B" eventType="touchUpInside" id="0cD-uD-XHj"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmS-cI-1Vz">
                                                         <rect key="frame" x="19" y="1621" width="33" height="33"/>
@@ -417,6 +426,9 @@
                                                             <color key="baseForegroundColor" red="0.25882352939999997" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="baseBackgroundColor" red="0.96862745100000003" green="0.99215686270000003" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="calc101:" destination="MdS-Xh-v6B" eventType="touchUpInside" id="yYV-aI-fAj"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMi-LI-kez">
                                                         <rect key="frame" x="189" y="1599" width="111" height="77"/>
@@ -427,6 +439,9 @@
                                                             <color key="baseForegroundColor" red="0.25882352939999997" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="baseBackgroundColor" red="0.96862745100000003" green="0.99215686270000003" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="calc102:" destination="MdS-Xh-v6B" eventType="touchUpInside" id="yeX-7Z-LZG"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygG-Z2-2aD">
                                                         <rect key="frame" x="308" y="1599" width="95" height="77"/>
@@ -437,6 +452,9 @@
                                                             <color key="baseForegroundColor" red="0.25882352939999997" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="baseBackgroundColor" red="0.96862745100000003" green="0.99215686270000003" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="calc103:" destination="MdS-Xh-v6B" eventType="touchUpInside" id="j4y-dT-BHU"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojZ-3Q-XFy">
                                                         <rect key="frame" x="18" y="1735" width="33" height="33"/>
@@ -457,6 +475,9 @@
                                                             <color key="baseForegroundColor" red="0.25882352939999997" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="baseBackgroundColor" red="0.96862745100000003" green="0.99215686270000003" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="calc111:" destination="MdS-Xh-v6B" eventType="touchUpInside" id="rvl-nK-qQL"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9q4-h9-d3w">
                                                         <rect key="frame" x="191" y="1719" width="111" height="65"/>
@@ -467,6 +488,9 @@
                                                             <color key="baseForegroundColor" red="0.25882352939999997" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="baseBackgroundColor" red="0.96862745100000003" green="0.99215686270000003" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="calc112:" destination="MdS-Xh-v6B" eventType="touchUpInside" id="6LQ-4D-4x3"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUI-2t-1n1">
                                                         <rect key="frame" x="310" y="1719" width="95" height="65"/>
@@ -477,6 +501,9 @@
                                                             <color key="baseForegroundColor" red="0.25882352939999997" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="baseBackgroundColor" red="0.96862745100000003" green="0.99215686270000003" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="calc113:" destination="MdS-Xh-v6B" eventType="touchUpInside" id="sTQ-Cf-e5s"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="13.) Do you recycle aluminum and tin?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6d1-Xa-pyt">
                                                         <rect key="frame" x="44" y="1967" width="267" height="19"/>
@@ -518,6 +545,9 @@
                                                             <color key="baseForegroundColor" red="0.25882352939999997" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="baseBackgroundColor" red="0.96862745100000003" green="0.99215686270000003" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="no1:" destination="MdS-Xh-v6B" eventType="touchUpInside" id="0YD-RW-YRq"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oW9-B3-ZT7">
                                                         <rect key="frame" x="65" y="2003" width="80" height="44"/>
@@ -538,6 +568,9 @@
                                                             <color key="baseForegroundColor" red="0.25882352939999997" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="baseBackgroundColor" red="0.96862745100000003" green="0.99215686270000003" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="no2:" destination="MdS-Xh-v6B" eventType="touchUpInside" id="xMx-Yc-6sf"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAX-Do-MwS">
                                                         <rect key="frame" x="16" y="2106" width="0.0" height="0.0"/>
