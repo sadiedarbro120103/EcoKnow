@@ -1210,7 +1210,7 @@
                                     <color key="baseBackgroundColor" red="0.16078431369999999" green="0.31764705879999999" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="hsc-4F-3RP" kind="show" id="XtF-7m-zXC"/>
+                                    <segue destination="hsc-4F-3RP" kind="show" id="Eg2-QF-7Q1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1891,12 +1891,12 @@ It can result in other conditions as well, such as hypoxia. This phenomenon is 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XtF-7m-zXC"/>
-        <segue reference="AKW-7l-pUS"/>
+        <segue reference="Eg2-QF-7Q1"/>
+        <segue reference="UXk-Ma-f9Y"/>
         <segue reference="zcV-T5-5ya"/>
         <segue reference="45t-n0-RnW"/>
         <segue reference="wki-vN-R3U"/>
-        <segue reference="XOI-P9-dni"/>
+        <segue reference="vT6-rv-r9l"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen_Shot_2022-08-18_at_2.58.00_PM-removebg-preview" width="266" height="454"/>
