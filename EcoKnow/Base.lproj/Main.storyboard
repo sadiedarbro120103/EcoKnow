@@ -1004,7 +1004,7 @@
                                     <color key="baseBackgroundColor" red="0.75686274509999996" green="0.86274509799999999" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="q3B:" destination="hsc-4F-3RP" eventType="touchUpInside" id="p70-AK-Nbi"/>
+                                    <action selector="q3C:" destination="hsc-4F-3RP" eventType="touchUpInside" id="gVb-hM-1fS"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDh-jS-Fw1">

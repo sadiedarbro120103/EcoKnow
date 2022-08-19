@@ -30,7 +30,7 @@ class QuizViewController: UIViewController {
         ans1.text = "Correct! You deserve a cookie"
     }
     @IBAction func q1C(_ sender: UIButton) {
-        ans2.text = "Darn, it's B!"
+        ans1.text = "Darn, it's B!"
     }
     
     @IBAction func q2A(_ sender: UIButton) {
@@ -38,7 +38,7 @@ class QuizViewController: UIViewController {
     }
     
     @IBAction func q2B(_ sender: UIButton) {
-        ans2.text = "Slayyy"
+        ans2.text = "Slay you got it!"
     }
     
     
@@ -53,9 +53,10 @@ class QuizViewController: UIViewController {
     @IBAction func q3actualB(_ sender: UIButton) {
         ans3.text = "Oopsie, it is D!"
     }
-    @IBAction func q3B(_ sender: UIButton) {
-        ans3.text = "Incorrect! It's D!"
+    @IBAction func q3C(_ sender: UIButton) {
+        ans3.text = "Incorrect, try again!"
     }
+    
     
     @IBAction func q3D(_ sender: UIButton) {
         ans3.text = "Awesome! Let's protect our planet!"
