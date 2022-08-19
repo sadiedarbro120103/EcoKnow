@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FEA880928AFC7540023A65E /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA880828AFC7540023A65E /* QuizViewController.swift */; };
 		CF7B288228AC173700A69B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B288128AC173700A69B88 /* AppDelegate.swift */; };
 		CF7B288428AC173700A69B88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B288328AC173700A69B88 /* SceneDelegate.swift */; };
 		CF7B288628AC173700A69B88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B288528AC173700A69B88 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FEA880828AFC7540023A65E /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		CF7B287E28AC173700A69B88 /* EcoKnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoKnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7B288128AC173700A69B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7B288328AC173700A69B88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				CF7B288328AC173700A69B88 /* SceneDelegate.swift */,
 				CF7B288528AC173700A69B88 /* ViewController.swift */,
 				CF7B288728AC173700A69B88 /* Main.storyboard */,
+				3FEA880828AFC7540023A65E /* QuizViewController.swift */,
 				CF7B289828AC1FC400A69B88 /* WaterCalculatorViewController.swift */,
 				CF7B289A28AC1FF700A69B88 /* UrbanRural.swift */,
 				CF7B289C28AC200D00A69B88 /* Resources.swift */,
@@ -153,6 +156,7 @@
 				CF7B288628AC173700A69B88 /* ViewController.swift in Sources */,
 				CF7B289B28AC1FF700A69B88 /* UrbanRural.swift in Sources */,
 				CF7B289D28AC200D00A69B88 /* Resources.swift in Sources */,
+				3FEA880928AFC7540023A65E /* QuizViewController.swift in Sources */,
 				CF7B288228AC173700A69B88 /* AppDelegate.swift in Sources */,
 				CF7B289928AC1FC500A69B88 /* WaterCalculatorViewController.swift in Sources */,
 				CF7B288C28AC173700A69B88 /* EcoKnow.xcdatamodeld in Sources */,
