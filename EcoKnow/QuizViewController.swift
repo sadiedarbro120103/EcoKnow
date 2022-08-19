@@ -21,28 +21,46 @@ class QuizViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func q1(_ sender: UIButton) {
-        ans1.text = "B."
+    
+    @IBAction func q1A(_ sender: UIButton) {
+        ans1.text = "Sorry, the answer is B"
     }
     
-    @IBAction func q2(_ sender: UIButton) {
-        ans2.text = "B."
+    @IBAction func q1B(_ sender: UIButton) {
+        ans1.text = "Correct! You deserve a cookie"
+    }
+    @IBAction func q1C(_ sender: UIButton) {
+        ans2.text = "Darn, it's B!"
     }
     
-    @IBAction func q3(_ sender: UIButton) {
-        ans3.text = "D."
+    @IBAction func q2A(_ sender: UIButton) {
+        ans2.text = "Incorrect, it's B!"
     }
     
-
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func q2B(_ sender: UIButton) {
+        ans2.text = "Slayyy"
     }
-    */
+    
+    
+    @IBAction func q2D(_ sender: UIButton) {
+        ans2.text = "Oops, it's B!"
+    }
+    
+    @IBAction func q3A(_ sender: UIButton) {
+        ans3.text = "Sorry, the answer is D"
+    }
+    
+    @IBAction func q3actualB(_ sender: UIButton) {
+        ans3.text = "Oopsie, it is D!"
+    }
+    @IBAction func q3B(_ sender: UIButton) {
+        ans3.text = "Incorrect! It's D!"
+    }
+    
+    @IBAction func q3D(_ sender: UIButton) {
+        ans3.text = "Awesome! Let's protect our planet!"
+    }
+    
+    
 
 }
